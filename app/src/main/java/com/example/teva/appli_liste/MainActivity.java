@@ -34,10 +34,20 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent intent_sport = new Intent (MainActivity.this, descri_sports.class);
-                intent_sport.putExtra(EXTRA_CHOIX,true);
+
+                intent_sport.putExtra(EXTRA_CHOIX,position);
+                startActivity(intent_sport);
             }
         });
-    }
+
+    /*
+        holder = new ViewHolder();
+        holder.title = (TextView) v.findViewById(R.id.title);
+        holder.desc = (TextView) v.findViewById(R.id.description);
+        v.setTag(holder);
+
+     */
+
 }
 
 
