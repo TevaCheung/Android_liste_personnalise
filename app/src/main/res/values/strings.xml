@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Appli_liste</string>
+
+    <string name="tab_1">Sport 1</string>
+    <string name="tab_2">Sport 2</string>
+    <string name="tab_3">Sport 3</string>
+</resources>
